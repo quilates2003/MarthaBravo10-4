@@ -1,0 +1,106 @@
+body {
+	background-image: linear-gradient(to right, #C12267, #000000);
+}
+.menu{
+  grid-template-columns:repeat(2, 1fr);
+  grid-gap: 10px;
+  display: grid;
+  padding:0;
+}
+.menu li{
+  list-style:none;
+  background-image: linear-gradient(#C12267, #FAAFBE);
+  color:black;
+  text-align:center;
+  padding:10px;
+  font-size:25px;
+}
+a {
+	text-decoration:none;
+}
+.menu li:hover {
+	background:black;
+	color:#FAAFBE;
+}
+
+h1{
+	color:#FAAFBE;
+}
+
+.rose{
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-gap:15px;
+	margin:15px;
+	height:40vh;
+}
+.pic {
+	background-image:url(../images/rose.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text{
+	border:5px #FAAFBE solid;
+	font-size:18px;
+}
+p{
+	text-align:justify;
+	color:white;
+	margin:15px;
+	text-indent:30px;
+}
+
+.lisa{
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-gap:15px;
+	margin:15px;
+	height:40vh;
+}
+.pic2 {
+	background-image:url(../images/lisa.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text2 {
+	border:5px #FAAFBE solid;
+	font-size:18px;
+}
+
+.jisoo{
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-gap:15px;
+	margin:15px;
+	height:40vh;
+}
+.pic3 {
+	background-image:url(../images/jisoo.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text3 {
+	border:5px #FAAFBE solid;
+	font-size:22px;
+}
+
+.jennie{
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-gap:15px;
+	margin:15px;
+	height:40vh;
+}
+.pic4 {
+	background-image:url(../images/jennie.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text4 {
+	border:5px #FAAFBE solid;
+	font-size:21px;
+}
